@@ -1,0 +1,40 @@
+V7 Reference-Style Framework Model Equivalence Report
+Generated: 07-Jul-2026 10:39:15
+
+Original model: flapping_wing_attitude_plant_v7.slx
+Reference-style framework model: flapping_wing_attitude_plant_v7_framework_refstyle.slx
+
+Reference source: fresh in-memory simulation of the original tuned V7 model.
+Existing V1-V7 result files are not overwritten.
+
+Tolerances:
+  max attitude difference <= 1.000e-06 deg
+  max angular-rate difference <= 1.000e-08 rad/s
+  max flexible-moment difference <= 1.000e-08 N*m
+
+Case: rigid_baseline
+  max attitude difference:       0.0000000000000000e+00 deg
+  max angular-rate difference:   0.0000000000000000e+00 rad/s
+  max flexible-moment difference 0.0000000000000000e+00 N*m
+  pass: 1
+
+Case: inertia_only
+  max attitude difference:       0.0000000000000000e+00 deg
+  max angular-rate difference:   0.0000000000000000e+00 rad/s
+  max flexible-moment difference 0.0000000000000000e+00 N*m
+  pass: 1
+
+Case: inertia_flex
+  max attitude difference:       0.0000000000000000e+00 deg
+  max angular-rate difference:   0.0000000000000000e+00 rad/s
+  max flexible-moment difference 0.0000000000000000e+00 N*m
+  pass: 1
+
+Case: inertia_flex_wake
+  max attitude difference:       0.0000000000000000e+00 deg
+  max angular-rate difference:   0.0000000000000000e+00 rad/s
+  max flexible-moment difference 0.0000000000000000e+00 N*m
+  pass: 1
+
+OVERALL RESULT: PASS
+The reference-style framework model is numerically equivalent to the original tuned V7 model within tolerance.

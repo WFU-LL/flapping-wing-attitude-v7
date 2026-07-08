@@ -1,0 +1,15 @@
+V7 parameter sensitivity report
+Generated at: 03-Jul-2026 14:33:31
+
+flex_scale_0p025: scale_inertia=0.025 scale_flex=0.025 scale_wake=0.05 max_att=8.000000 rmse_norm=3.037872 final_yaw=1.576932 stable=1
+flex_scale_0p05: scale_inertia=0.05 scale_flex=0.05 scale_wake=0.05 max_att=8.000000 rmse_norm=3.429137 final_yaw=2.331329 stable=1
+flex_scale_0p075: scale_inertia=0.075 scale_flex=0.075 scale_wake=0.05 max_att=8.000000 rmse_norm=3.943863 final_yaw=3.085726 stable=1
+flex_scale_0p1: scale_inertia=0.1 scale_flex=0.1 scale_wake=0.05 max_att=8.000000 rmse_norm=4.534331 final_yaw=3.840124 stable=1
+wake_scale_0: scale_inertia=0.05 scale_flex=0.05 scale_wake=0 max_att=8.000000 rmse_norm=2.934069 final_yaw=1.508761 stable=1
+wake_scale_0p025: scale_inertia=0.05 scale_flex=0.05 scale_wake=0.025 max_att=8.000000 rmse_norm=3.167667 final_yaw=1.920045 stable=1
+wake_scale_0p05: scale_inertia=0.05 scale_flex=0.05 scale_wake=0.05 max_att=8.000000 rmse_norm=3.429137 final_yaw=2.331329 stable=1
+wake_scale_0p075: scale_inertia=0.05 scale_flex=0.05 scale_wake=0.075 max_att=8.000000 rmse_norm=3.712595 final_yaw=2.742613 stable=1
+wake_scale_0p1: scale_inertia=0.05 scale_flex=0.05 scale_wake=0.1 max_att=8.000000 rmse_norm=4.013385 final_yaw=3.153897 stable=1
+
+Interpretation:
+Increasing inertia/flex scale changes pitch/yaw RMSE through direct moment injection. Increasing wake scale mainly shifts yaw through Mz_flex. All listed cases are checked for bounded attitude response.

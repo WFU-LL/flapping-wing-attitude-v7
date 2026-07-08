@@ -1,0 +1,8 @@
+*.asv
+*.autosave
+*.slxc
+slprj/
+*.log
+__pycache__/
+*.tmp
+*.bak
