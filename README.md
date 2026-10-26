@@ -56,3 +56,7 @@ model/flapping_wing_attitude_plant_v7.slx
 - Flexible-wing effects are represented as additive equivalent correction moments.
 - The framework-style Simulink model is for visualization and documentation; it preserves the tuned V7 internal dynamics, controller, flexible-force functions, and parameters.
 - Existing result files are included to support manuscript review and reproducibility checks.
+
+## TAES source-model archive
+
+The curated MATLAB/Simulink source package associated with *Model Fidelity and Torque-Cost Tradeoffs for Attitude Regulation of Flexible Flapping-Wing Systems* is available in [TAES_model_package_20260814/](TAES_model_package_20260814/). Its README states the package scope, entry points, and reproducibility boundary.
